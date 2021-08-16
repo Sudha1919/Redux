@@ -8,6 +8,7 @@ const ReduxFirst = props => {
   })} </h1>;
 };
 
+
 const mapStateToProps = state => {
   return state;
 };
