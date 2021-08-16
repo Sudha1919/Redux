@@ -3,10 +3,10 @@ import { connect } from 'react-redux';
 
 const ReduxFirst = props => {
   console.log(props.Employees[1]);
-  console.log(props)
+  console.log(props);
   return (
     <>
-      <h1>First Redux Component : {props.Name} </h1>
+      <h1>First Redux Component : {props.Employees[{}]} </h1>
     </>
   );
 };
